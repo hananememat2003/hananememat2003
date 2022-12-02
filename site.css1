@@ -1,0 +1,113 @@
+<html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url(headphones_laptop_macbook_apple_107920_1280x720.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+
+ }
+#music{
+    overflow: hidden;
+    background-color:dimgray;
+    text-align: center;
+}
+#music a{
+    float: left;
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+}
+#music a:hover {
+    background-color:darkgrey;
+    color: black;
+  }
+@media screen and (max-width: 600px) {
+    #music a {
+      float: none;
+      width: 100%;
+    }
+ }
+ #conteur h1{
+    font-size:60px;
+    color:grey;
+    margin-top: 60px;
+    text-align: cenTER;
+ }
+ #conteur p{
+    margin: 30px;
+    font-size: 20px;
+    color:black;
+    text-align: center;
+ }
+.login-form{
+    width:350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.kim input[type="Email"], .kim input[type="Password"] {
+    text-align: center;
+    border: 2px solid black;
+    border: 0;
+    padding: 6px 6px;
+    width: 300px;
+    border-radius: 24px;
+}
+.kim input{
+    width: 300px;
+    height: 35px;
+    margin-top:20px;
+    padding: 5px;
+    text-align: center;
+    border: none;
+    color: black;
+}
+.kim input[ type="button"]{
+    background:linear-gradient(45deg, grey, white);
+}
+   <style>
+</head>
+<body>
+  <div id="header"></div>
+    
+  <div id="music">
+    <a href="#">Home</a>
+    <a href="#">Dowloand</a>
+    <a href="#">Vidéo</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+  <div id="conteur">
+    <h1>Welcome to our page</h1>
+    <p>Our pages are high quality wireless headphones. <br>
+       Enter your code to receive information about the headphones:</p> 
+       <br>
+       <div class="login-form"><br><br><br>
+        <form action="#" method="post" class="kim">
+          <input type="Email" name="Email" placeholder=" Email">
+          <input type="Password" name="Password" placeholder="Password">
+         <input type="button" value="Connecter" onclick="alert('Hello world!&#128522');location.href='https://www.electroplanet.ma/audio-hi-fi/casque-audio/casque-audio-avec-micro-sans-fil';">
+         </form>
+         </div>
+
+
+
+  
+</body>
+</html></html>
